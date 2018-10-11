@@ -1,0 +1,25 @@
+<h4 *ngIf="auth.isAuthenticated()">
+  You are logged in!
+</h4>
+<h4 *ngIf="!auth.isAuthenticated()">
+  <a (click)="auth.login()">Login</a> and join our community today!
+</h4>
+<app-pagination></app-pagination>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Group</th>
+      <th scope="col">Members</th>
+      <th scope="col">Posts</th>
+      <th scope="col">Votes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let group of groups">
+      <th scope="row"><a (click)="onSubmit(group)">{{ group.name }}</a></th>
+      <td>{{ group.users.length }}</td>
+      <td>{{ group.posts }}</td>
+      <td>{{ group.votes }}</td>
+    </tr>
+  </tbody>
+</table>
