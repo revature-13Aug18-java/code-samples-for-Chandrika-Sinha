@@ -1,7 +1,6 @@
 # code-samples-for-Chandrika-Sinha
-Chandrika's contributions to Revature projects.
+My Revature code.
 
-# Repo Structure
 ## Project 0: Console Banking App
 A java program which utilized console input to perform bank transactions.
 
