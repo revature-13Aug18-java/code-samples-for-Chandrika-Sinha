@@ -18,6 +18,7 @@ Frontend Repo: https://github.com/computeruser88/ChatterboxFrontEnd
  + Uses __Maven__ for the project's build configuration tool.
  + Uses __Jenkins__ to continuously build and deploy the application.
  + Uses __Tomcat__ for its server.
+ + Used __Postman__ to test endpoints and connectivity.
 
 # User Stories
  + A user can create an account/profile.
