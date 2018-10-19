@@ -30,7 +30,7 @@ Microservices, Docker
 Separate Dev and Master pipelines.
 
 ## Jenkins - Master:
-![Jenkins - Master](JenkinsMaster.jpg)
+![Jenkins - Master](MasterJenkins.jpg)
 
 ## Client-side Test Coverage:
 ![Client-side Test Coverage](ClientTestCoverage.jpg)

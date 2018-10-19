@@ -2,7 +2,7 @@
 Superdank Bank is a console banking application that allows users to create accounts and make
 deposits/withdrawals to their accounts.
 
-# Use Cases
+# User Stories
 
 # Github
 This project can be found on [https://github.com/1808-Aug13-Java/batch-source/tree/Chandrika_Sinha](
@@ -15,7 +15,3 @@ __p0-Chandrika-Sinha__.
 pattern.
  + Uses __Java__ to implement the logic for depositing to and withdrawing from bank accounts.
  + Uses __Apache Maven__ as a build automation tool.
-
-# User Key Prompt Cheat Sheet
- + Enter 'n' to create a new account.
- + Enter 'd' to deposit money.
