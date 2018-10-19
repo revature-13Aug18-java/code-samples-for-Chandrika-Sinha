@@ -1,6 +1,19 @@
 # Project 3: Rideforce
 Rideforce is an application for matching drivers and riders together for carpooling.
 
+# Tech Stack
+ + Used __Amazon EC2__ to run and deploy our server-side code.
+ + Used __Jenkins__ to create CI/CD pipelines.
+ + Used a __Tomcat__ server.
+ + Used __Amazon S3__ for storing static websites.
+ + Used __Eureka__ to discover our microservices.
+ + Used __Slack__ to automatically notify developers how stable the build was after they pulled into 
+the dev and master branches.
+ + Used __Github__ to store our code and for version control.
+ + Have different pipelines for each of the microservices.
+
+Separate Dev and Master pipelines.
+
 # Pipeline Workflow (Configuration Picture included in Repo):
 General -> Source Code Management -> Build Triggers -> Build -> Post-build Actions
  + __General__: Only kept a max number of builds here so that old builds would not take up space 
@@ -31,19 +44,6 @@ Hosted Back-end Documentation for Different Services
 http://ec2-54-172-152-53.compute-1.amazonaws.com:8080/user-docs/
 http://ec2-54-172-152-53.compute-1.amazonaws.com:8080/matching-docs/
 http://ec2-54-172-152-53.compute-1.amazonaws.com:8080/maps-docs/
-
-# Tech Stack
- + Used __Amazon EC2__ to run and deploy our server-side code.
- + Used __Jenkins__ to create CI/CD pipelines.
- + Used __Amazon S3__ for storing static websites.
- + Used __Eureka__ to discover our microservices.
- + Used __Slack__ to automatically notify developers how stable the build was after they pulled into 
-the dev and master branches.
-
-Worked on DevOps with Jenkins, Maven, Tomcat, Github...
-Microservices, Docker
-
-Separate Dev and Master pipelines.
 
 ## Jenkins - Master:
 ![Jenkins - Master](MasterJenkins.jpg)
