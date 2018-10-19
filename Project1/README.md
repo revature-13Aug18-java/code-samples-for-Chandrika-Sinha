@@ -2,11 +2,6 @@
 The Employee Reimbursement System (ERS) is a full-stack application where employees can make requests 
 to get reimbursed for company expenses and managers can either approve or deny them.
 
-# Github
-This project can be found on [https://github.com/1808-Aug13-Java/batch-source/tree/Chandrika_Sinha](
-https://github.com/1808-Aug13-Java/batch-source/tree/Chandrika_Sinha) under __Projects__ >>
-__p1-Chandrika-Sinha__.
-
 # Tech Stack
  + Uses __Oracle SQL__ to store employee, manager, and request data to an __AWS RDS__ in a database 
 first approach.
