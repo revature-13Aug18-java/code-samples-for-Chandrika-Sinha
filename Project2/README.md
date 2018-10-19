@@ -8,6 +8,17 @@ particular subject.
 Backend Repo: https://github.com/crandonriordan/Project2-Chatterbox
 Frontend Repo: https://github.com/computeruser88/ChatterboxFrontEnd
 
+# Tech Stack
+ + Uses __Hibernate__ to connect to the __AWS RDS__ in a code first approach.
+ + Uses __Java__ and __Spring MVC__ to implement the backend and controller logic.
+ + Uses __Angular__ to create a single-page web application for users.
+ + Uses __Typescript__ to implement the frontend functionality.
+ + Uses __HTML__ to structure the web views.
+ + Uses __CSS__, __Bootstrap__, and __Bootswatch__ to format the display of that content.
+ + Uses __Maven__ for the project's build configuration tool.
+ + Uses __Jenkins__ to continuously build and deploy the application.
+ + Uses __Tomcat__ for its server.
+
 # User Stories
  + A user can create an account/profile.
  + A user can update the account/profile.
@@ -16,17 +27,3 @@ Frontend Repo: https://github.com/computeruser88/ChatterboxFrontEnd
  + A user can “like” particular content once per item.
  + Administrators can create Chatterboxes.
  + Administrators can remove users from a Chatterbox.
-
-# Tech Stack
- + Oracle SQL
- + AWS RDS
- + Hibernate
- + Java
- + Spring MVC
- + Angular
- + Typescript
- + HTML
- + CSS, Bootstrap, Bootswatch
- + Maven
- + Jenkins
- + Tomcat
