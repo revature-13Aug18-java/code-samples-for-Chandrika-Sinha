@@ -27,3 +27,6 @@ Frontend Repo: https://github.com/computeruser88/ChatterboxFrontEnd
  + A user can “like” particular content once per item.
  + Administrators can create Chatterboxes.
  + Administrators can remove users from a Chatterbox.
+
+# Entity Diagram
+![Chatterbox Entity Diagram](EntityDiagram.png)

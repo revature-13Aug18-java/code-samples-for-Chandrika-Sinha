@@ -9,7 +9,8 @@ A full-stack application used by managers and employees to approve the reimburse
 expenses.
 
 ## Project 2: Chatterbox
-A full-stack application to function similarly to reddit but with a nicer ui.
+A full-stack application that allows users to celebrate and build different communities by joining 
+groups called Chatterboxes and posting and commenting in them.
 
 ## Project 3: Rideforce
 A full-stack application for Revature associates to use to figure out carpooling.

@@ -17,7 +17,7 @@ first approach.
  + Uses __AJAX__ to asynchronously send and receive data from the server from the frontend.
  + Uses __Javascript__ to implement functionality to the HTML content.
  + Uses __HTML__ to add content to the webpages.
- + Uses CSS and Bootstrap to change the format and display of that web content.
+ + Uses __CSS__ and __Bootstrap__ to change the format and display of that web content.
 
 # User Stories
  + An Employee can login
@@ -28,12 +28,12 @@ first approach.
  + An Employee can view their resolved reimbursement requests
  + An Employee can view their information // profile
  + An Employee can update their information 
-
  + A Manager can login
  + A Manager can view the Manager Homepage
  + A Manager can logout
  + A Manager can approve/deny pending reimbursement requests
  + A Manager can view all pending requests from all employees
  + A Manager can view all resolved requests from all employees and see which manager resolved it
- + A Manager can view all Employees	
+ + A Manager can view all Employees
  + A Manager can view reimbursement requests from a single Employee
+
