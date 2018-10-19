@@ -1,6 +1,22 @@
 # Project 3: Rideforce
 Rideforce is an application for matching drivers and riders together for carpooling.
 
+# Pipeline Workflow (Configuration Picture included in Repo):
+General -> Source Code Management -> Build Triggers -> Build -> Post-build Actions
+ + __General__: Only kept a max number of builds here so that old builds would not take up space 
+on our t3 micro 8 GB EC2 instance.
+ + __Source Code Management__: connected the https://github.com/revaturelabs/rideshare-client.git 
+repository here and specified the branch to use.
+ + __Build Triggers__: Configured it to GitHub hook trigger for GITScm polling.
+ + __Bindings__: Set up secret text bindings for AWS credentials for the backend pipelines here. 
+This is not in the frontend pipeline.
+ + __Build Environment__: Provided Node and npm bin folder to PATH for the front end. This is not 
+in the backend pipeline.
+ + __Build__: Included a shell script to be executed when triggered for building, testing, and 
+documenting the project.
+ + __Post-build Actions__: Published artifacts to S3 Bucket for the frontend here and notified 
+developers whether the build succeeded via Slack Notifications.
+
 # Links (Pictures Below)
 Associated Github Repos:
 https://github.com/revaturelabs?utf8=%E2%9C%93&q=rideshare&type=&language=
